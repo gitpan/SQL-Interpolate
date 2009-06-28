@@ -1,3 +1,8 @@
+
+0.41 2009-06-28
+    - No code changes
+    - Update documentation to mention the fork.
+
 0.40 2007-05-08
     - No code changes. Declaring stable.
     - List DBI as a dependency to squelch a test failure.

@@ -7,7 +7,7 @@ use DBI;
 use SQL::Interpolate qw(:all);
 use base qw(Exporter DBI);
 
-our $VERSION = '0.40';
+our $VERSION = '0.41';
 
 our @EXPORT;
 our %EXPORT_TAGS = (all => [qw(
@@ -510,6 +510,12 @@ __END__
 =head1 NAME
 
 DBIx::Interpolate - Interpolate Perl variables into SQL with DBI
+
+=head1 STATUS
+
+This module is not being actively maintained, although there is a fork
+with further updates. See the "Fork" section in L<SQL::Interp> docs for details:
+L<http://search.cpan.org/perldoc?SQL::Interp#Fork>.
 
 =head1 SYNOPSIS
 
